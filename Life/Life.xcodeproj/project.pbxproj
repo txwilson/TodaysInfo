@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE18565F1E9D29FC00CAEE01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE18565E1E9D29FC00CAEE01 /* AppDelegate.swift */; };
+		BE1856611E9D29FC00CAEE01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1856601E9D29FC00CAEE01 /* ViewController.swift */; };
+		BE1856641E9D29FC00CAEE01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1856621E9D29FC00CAEE01 /* Main.storyboard */; };
+		BE1856661E9D29FC00CAEE01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1856651E9D29FC00CAEE01 /* Assets.xcassets */; };
+		BE1856691E9D29FC00CAEE01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1856671E9D29FC00CAEE01 /* LaunchScreen.storyboard */; };
+		BE1856741E9D29FD00CAEE01 /* LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1856731E9D29FD00CAEE01 /* LifeTests.swift */; };
+		BE18567F1E9D29FD00CAEE01 /* LifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE18567E1E9D29FD00CAEE01 /* LifeUITests.swift */; };
+		BE18568D1E9D320F00CAEE01 /* WeatherMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE18568C1E9D320F00CAEE01 /* WeatherMap.swift */; };
+		BE1856CF1E9D48B300CAEE01 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1856CE1E9D48B300CAEE01 /* CollectionViewCell.swift */; };
+		BE1856D11E9D4B5C00CAEE01 /* skyline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE1856D01E9D4B5C00CAEE01 /* skyline.jpg */; };
+		BE98DD641EB3AC1C00440D73 /* SportsNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98DD631EB3AC1C00440D73 /* SportsNews.swift */; };
+		BEA1D9A61EA06E880033283D /* Steps.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA1D9A51EA06E880033283D /* Steps.swift */; };
+		BEA1D9A81EA072490033283D /* PrivacyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA1D9A71EA072490033283D /* PrivacyTableViewController.swift */; };
+		BEAAE9841E9FD01600DF2C90 /* CalendarEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAAE9831E9FD01600DF2C90 /* CalendarEvents.swift */; };
+		BEAAE9881EA00A9300DF2C90 /* galaxy.png in Resources */ = {isa = PBXBuildFile; fileRef = BEAAE9871EA00A9300DF2C90 /* galaxy.png */; };
+		BED0FAF21EA4553E00ED1F5F /* DataBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED0FAF11EA4553E00ED1F5F /* DataBaseController.swift */; };
+		BEDF7EBF1E9F1F230071CBC8 /* clearSky.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF7EBE1E9F1F230071CBC8 /* clearSky.png */; };
+		BEDF7ECC1E9F1F3D0071CBC8 /* brokenClouds.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF7EC01E9F1F3D0071CBC8 /* brokenClouds.png */; };
+		BEDF7ECD1E9F1F3D0071CBC8 /* clearSky.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF7EC11E9F1F3D0071CBC8 /* clearSky.png */; };
+		BEDF7ECE1E9F1F3D0071CBC8 /* cloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF7EC21E9F1F3D0071CBC8 /* cloudy.png */; };
+		BEDF7ECF1E9F1F3D0071CBC8 /* mist.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF7EC31E9F1F3D0071CBC8 /* mist.png */; };
+		BEDF7ED01E9F1F3D0071CBC8 /* partlyCloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF7EC41E9F1F3D0071CBC8 /* partlyCloudy.png */; };
+		BEDF7ED11E9F1F3D0071CBC8 /* partlyCloudyNight.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF7EC51E9F1F3D0071CBC8 /* partlyCloudyNight.png */; };
+		BEDF7ED21E9F1F3D0071CBC8 /* rainDay.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF7EC61E9F1F3D0071CBC8 /* rainDay.png */; };
+		BEDF7ED31E9F1F3D0071CBC8 /* rainNight.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF7EC71E9F1F3D0071CBC8 /* rainNight.png */; };
+		BEDF7ED41E9F1F3D0071CBC8 /* rainShower.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF7EC81E9F1F3D0071CBC8 /* rainShower.png */; };
+		BEDF7ED51E9F1F3D0071CBC8 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF7EC91E9F1F3D0071CBC8 /* snow.png */; };
+		BEDF7ED61E9F1F3D0071CBC8 /* storm.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF7ECA1E9F1F3D0071CBC8 /* storm.png */; };
+		BEDF7ED71E9F1F3D0071CBC8 /* sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = BEDF7ECB1E9F1F3D0071CBC8 /* sunny.png */; };
+		BEDF7EDA1E9F25A40071CBC8 /* DateAndTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDF7ED91E9F25A40071CBC8 /* DateAndTime.swift */; };
+		BEEB664E1EA2A6D600C99481 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEEB664C1EA2A6D600C99481 /* Model.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE1856701E9D29FD00CAEE01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE1856531E9D29FC00CAEE01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE18565A1E9D29FC00CAEE01;
+			remoteInfo = Life;
+		};
+		BE18567B1E9D29FD00CAEE01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE1856531E9D29FC00CAEE01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE18565A1E9D29FC00CAEE01;
+			remoteInfo = Life;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE18565B1E9D29FC00CAEE01 /* Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Life.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE18565E1E9D29FC00CAEE01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE1856601E9D29FC00CAEE01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE1856631E9D29FC00CAEE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE1856651E9D29FC00CAEE01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE1856681E9D29FC00CAEE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE18566A1E9D29FC00CAEE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE18566F1E9D29FD00CAEE01 /* LifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1856731E9D29FD00CAEE01 /* LifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeTests.swift; sourceTree = "<group>"; };
+		BE1856751E9D29FD00CAEE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE18567A1E9D29FD00CAEE01 /* LifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE18567E1E9D29FD00CAEE01 /* LifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeUITests.swift; sourceTree = "<group>"; };
+		BE1856801E9D29FD00CAEE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE18568C1E9D320F00CAEE01 /* WeatherMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherMap.swift; sourceTree = "<group>"; };
+		BE1856CE1E9D48B300CAEE01 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		BE1856D01E9D4B5C00CAEE01 /* skyline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skyline.jpg; sourceTree = "<group>"; };
+		BE98DD631EB3AC1C00440D73 /* SportsNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsNews.swift; sourceTree = "<group>"; };
+		BEA1D9A51EA06E880033283D /* Steps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Steps.swift; sourceTree = "<group>"; };
+		BEA1D9A71EA072490033283D /* PrivacyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyTableViewController.swift; sourceTree = "<group>"; };
+		BEAAE9831E9FD01600DF2C90 /* CalendarEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarEvents.swift; sourceTree = "<group>"; };
+		BEAAE9871EA00A9300DF2C90 /* galaxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galaxy.png; sourceTree = "<group>"; };
+		BED0FAF11EA4553E00ED1F5F /* DataBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseController.swift; sourceTree = "<group>"; };
+		BEDF7EBE1E9F1F230071CBC8 /* clearSky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clearSky.png; path = WeatherIcons/clearSky.png; sourceTree = "<group>"; };
+		BEDF7EC01E9F1F3D0071CBC8 /* brokenClouds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brokenClouds.png; path = WeatherIcons/brokenClouds.png; sourceTree = "<group>"; };
+		BEDF7EC11E9F1F3D0071CBC8 /* clearSky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clearSky.png; path = WeatherIcons/clearSky.png; sourceTree = "<group>"; };
+		BEDF7EC21E9F1F3D0071CBC8 /* cloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloudy.png; path = WeatherIcons/cloudy.png; sourceTree = "<group>"; };
+		BEDF7EC31E9F1F3D0071CBC8 /* mist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mist.png; path = WeatherIcons/mist.png; sourceTree = "<group>"; };
+		BEDF7EC41E9F1F3D0071CBC8 /* partlyCloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = partlyCloudy.png; path = WeatherIcons/partlyCloudy.png; sourceTree = "<group>"; };
+		BEDF7EC51E9F1F3D0071CBC8 /* partlyCloudyNight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = partlyCloudyNight.png; path = WeatherIcons/partlyCloudyNight.png; sourceTree = "<group>"; };
+		BEDF7EC61E9F1F3D0071CBC8 /* rainDay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rainDay.png; path = WeatherIcons/rainDay.png; sourceTree = "<group>"; };
+		BEDF7EC71E9F1F3D0071CBC8 /* rainNight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rainNight.png; path = WeatherIcons/rainNight.png; sourceTree = "<group>"; };
+		BEDF7EC81E9F1F3D0071CBC8 /* rainShower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rainShower.png; path = WeatherIcons/rainShower.png; sourceTree = "<group>"; };
+		BEDF7EC91E9F1F3D0071CBC8 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snow.png; path = WeatherIcons/snow.png; sourceTree = "<group>"; };
+		BEDF7ECA1E9F1F3D0071CBC8 /* storm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = storm.png; path = WeatherIcons/storm.png; sourceTree = "<group>"; };
+		BEDF7ECB1E9F1F3D0071CBC8 /* sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sunny.png; path = WeatherIcons/sunny.png; sourceTree = "<group>"; };
+		BEDF7ED91E9F25A40071CBC8 /* DateAndTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateAndTime.swift; sourceTree = "<group>"; };
+		BEEB664D1EA2A6D600C99481 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE1856581E9D29FC00CAEE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE18566C1E9D29FD00CAEE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1856771E9D29FD00CAEE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE1856521E9D29FC00CAEE01 = {
+			isa = PBXGroup;
+			children = (
+				BE18565D1E9D29FC00CAEE01 /* Life */,
+				BE1856721E9D29FD00CAEE01 /* LifeTests */,
+				BE18567D1E9D29FD00CAEE01 /* LifeUITests */,
+				BE18565C1E9D29FC00CAEE01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE18565C1E9D29FC00CAEE01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE18565B1E9D29FC00CAEE01 /* Life.app */,
+				BE18566F1E9D29FD00CAEE01 /* LifeTests.xctest */,
+				BE18567A1E9D29FD00CAEE01 /* LifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE18565D1E9D29FC00CAEE01 /* Life */ = {
+			isa = PBXGroup;
+			children = (
+				BEEB664C1EA2A6D600C99481 /* Model.xcdatamodeld */,
+				BED0FAF11EA4553E00ED1F5F /* DataBaseController.swift */,
+				BEAAE9831E9FD01600DF2C90 /* CalendarEvents.swift */,
+				BEA1D9A51EA06E880033283D /* Steps.swift */,
+				BE1856CE1E9D48B300CAEE01 /* CollectionViewCell.swift */,
+				BEDF7ED91E9F25A40071CBC8 /* DateAndTime.swift */,
+				BE98DD631EB3AC1C00440D73 /* SportsNews.swift */,
+				BE18568C1E9D320F00CAEE01 /* WeatherMap.swift */,
+				BEA1D9A71EA072490033283D /* PrivacyTableViewController.swift */,
+				BE1856601E9D29FC00CAEE01 /* ViewController.swift */,
+				BE1856621E9D29FC00CAEE01 /* Main.storyboard */,
+				BE1856671E9D29FC00CAEE01 /* LaunchScreen.storyboard */,
+				BE18568E1E9D36C700CAEE01 /* Extra */,
+				BEDF7ED81E9F1F470071CBC8 /* WeatherIcons */,
+				BE1856D01E9D4B5C00CAEE01 /* skyline.jpg */,
+				BEAAE9871EA00A9300DF2C90 /* galaxy.png */,
+			);
+			path = Life;
+			sourceTree = "<group>";
+		};
+		BE1856721E9D29FD00CAEE01 /* LifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE1856731E9D29FD00CAEE01 /* LifeTests.swift */,
+				BE1856751E9D29FD00CAEE01 /* Info.plist */,
+			);
+			path = LifeTests;
+			sourceTree = "<group>";
+		};
+		BE18567D1E9D29FD00CAEE01 /* LifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE18567E1E9D29FD00CAEE01 /* LifeUITests.swift */,
+				BE1856801E9D29FD00CAEE01 /* Info.plist */,
+			);
+			path = LifeUITests;
+			sourceTree = "<group>";
+		};
+		BE18568E1E9D36C700CAEE01 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				BE1856651E9D29FC00CAEE01 /* Assets.xcassets */,
+				BE18565E1E9D29FC00CAEE01 /* AppDelegate.swift */,
+				BE18566A1E9D29FC00CAEE01 /* Info.plist */,
+			);
+			name = Extra;
+			sourceTree = "<group>";
+		};
+		BEDF7ED81E9F1F470071CBC8 /* WeatherIcons */ = {
+			isa = PBXGroup;
+			children = (
+				BEDF7EBE1E9F1F230071CBC8 /* clearSky.png */,
+				BEDF7EC01E9F1F3D0071CBC8 /* brokenClouds.png */,
+				BEDF7EC11E9F1F3D0071CBC8 /* clearSky.png */,
+				BEDF7EC21E9F1F3D0071CBC8 /* cloudy.png */,
+				BEDF7EC31E9F1F3D0071CBC8 /* mist.png */,
+				BEDF7EC41E9F1F3D0071CBC8 /* partlyCloudy.png */,
+				BEDF7EC51E9F1F3D0071CBC8 /* partlyCloudyNight.png */,
+				BEDF7EC61E9F1F3D0071CBC8 /* rainDay.png */,
+				BEDF7EC71E9F1F3D0071CBC8 /* rainNight.png */,
+				BEDF7EC81E9F1F3D0071CBC8 /* rainShower.png */,
+				BEDF7EC91E9F1F3D0071CBC8 /* snow.png */,
+				BEDF7ECA1E9F1F3D0071CBC8 /* storm.png */,
+				BEDF7ECB1E9F1F3D0071CBC8 /* sunny.png */,
+			);
+			name = WeatherIcons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE18565A1E9D29FC00CAEE01 /* Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1856831E9D29FD00CAEE01 /* Build configuration list for PBXNativeTarget "Life" */;
+			buildPhases = (
+				BE1856571E9D29FC00CAEE01 /* Sources */,
+				BE1856581E9D29FC00CAEE01 /* Frameworks */,
+				BE1856591E9D29FC00CAEE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Life;
+			productName = Life;
+			productReference = BE18565B1E9D29FC00CAEE01 /* Life.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE18566E1E9D29FD00CAEE01 /* LifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1856861E9D29FD00CAEE01 /* Build configuration list for PBXNativeTarget "LifeTests" */;
+			buildPhases = (
+				BE18566B1E9D29FD00CAEE01 /* Sources */,
+				BE18566C1E9D29FD00CAEE01 /* Frameworks */,
+				BE18566D1E9D29FD00CAEE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE1856711E9D29FD00CAEE01 /* PBXTargetDependency */,
+			);
+			name = LifeTests;
+			productName = LifeTests;
+			productReference = BE18566F1E9D29FD00CAEE01 /* LifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE1856791E9D29FD00CAEE01 /* LifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1856891E9D29FD00CAEE01 /* Build configuration list for PBXNativeTarget "LifeUITests" */;
+			buildPhases = (
+				BE1856761E9D29FD00CAEE01 /* Sources */,
+				BE1856771E9D29FD00CAEE01 /* Frameworks */,
+				BE1856781E9D29FD00CAEE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE18567C1E9D29FD00CAEE01 /* PBXTargetDependency */,
+			);
+			name = LifeUITests;
+			productName = LifeUITests;
+			productReference = BE18567A1E9D29FD00CAEE01 /* LifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE1856531E9D29FC00CAEE01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tyler Wilson";
+				TargetAttributes = {
+					BE18565A1E9D29FC00CAEE01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					BE18566E1E9D29FD00CAEE01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE18565A1E9D29FC00CAEE01;
+					};
+					BE1856791E9D29FD00CAEE01 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE18565A1E9D29FC00CAEE01;
+					};
+				};
+			};
+			buildConfigurationList = BE1856561E9D29FC00CAEE01 /* Build configuration list for PBXProject "Life" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE1856521E9D29FC00CAEE01;
+			productRefGroup = BE18565C1E9D29FC00CAEE01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE18565A1E9D29FC00CAEE01 /* Life */,
+				BE18566E1E9D29FD00CAEE01 /* LifeTests */,
+				BE1856791E9D29FD00CAEE01 /* LifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE1856591E9D29FC00CAEE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1856691E9D29FC00CAEE01 /* LaunchScreen.storyboard in Resources */,
+				BEDF7ED71E9F1F3D0071CBC8 /* sunny.png in Resources */,
+				BEDF7ECE1E9F1F3D0071CBC8 /* cloudy.png in Resources */,
+				BEDF7ED51E9F1F3D0071CBC8 /* snow.png in Resources */,
+				BEDF7ED11E9F1F3D0071CBC8 /* partlyCloudyNight.png in Resources */,
+				BEDF7ED21E9F1F3D0071CBC8 /* rainDay.png in Resources */,
+				BE1856D11E9D4B5C00CAEE01 /* skyline.jpg in Resources */,
+				BEDF7ED41E9F1F3D0071CBC8 /* rainShower.png in Resources */,
+				BEDF7EBF1E9F1F230071CBC8 /* clearSky.png in Resources */,
+				BEDF7ED61E9F1F3D0071CBC8 /* storm.png in Resources */,
+				BE1856661E9D29FC00CAEE01 /* Assets.xcassets in Resources */,
+				BEDF7ED01E9F1F3D0071CBC8 /* partlyCloudy.png in Resources */,
+				BEDF7ECF1E9F1F3D0071CBC8 /* mist.png in Resources */,
+				BEAAE9881EA00A9300DF2C90 /* galaxy.png in Resources */,
+				BEDF7ED31E9F1F3D0071CBC8 /* rainNight.png in Resources */,
+				BEDF7ECD1E9F1F3D0071CBC8 /* clearSky.png in Resources */,
+				BEDF7ECC1E9F1F3D0071CBC8 /* brokenClouds.png in Resources */,
+				BE1856641E9D29FC00CAEE01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE18566D1E9D29FD00CAEE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1856781E9D29FD00CAEE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE1856571E9D29FC00CAEE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED0FAF21EA4553E00ED1F5F /* DataBaseController.swift in Sources */,
+				BEDF7EDA1E9F25A40071CBC8 /* DateAndTime.swift in Sources */,
+				BE1856611E9D29FC00CAEE01 /* ViewController.swift in Sources */,
+				BEA1D9A81EA072490033283D /* PrivacyTableViewController.swift in Sources */,
+				BE18565F1E9D29FC00CAEE01 /* AppDelegate.swift in Sources */,
+				BE98DD641EB3AC1C00440D73 /* SportsNews.swift in Sources */,
+				BE1856CF1E9D48B300CAEE01 /* CollectionViewCell.swift in Sources */,
+				BEEB664E1EA2A6D600C99481 /* Model.xcdatamodeld in Sources */,
+				BEA1D9A61EA06E880033283D /* Steps.swift in Sources */,
+				BEAAE9841E9FD01600DF2C90 /* CalendarEvents.swift in Sources */,
+				BE18568D1E9D320F00CAEE01 /* WeatherMap.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE18566B1E9D29FD00CAEE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1856741E9D29FD00CAEE01 /* LifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1856761E9D29FD00CAEE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE18567F1E9D29FD00CAEE01 /* LifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE1856711E9D29FD00CAEE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE18565A1E9D29FC00CAEE01 /* Life */;
+			targetProxy = BE1856701E9D29FD00CAEE01 /* PBXContainerItemProxy */;
+		};
+		BE18567C1E9D29FD00CAEE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE18565A1E9D29FC00CAEE01 /* Life */;
+			targetProxy = BE18567B1E9D29FD00CAEE01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE1856621E9D29FC00CAEE01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1856631E9D29FC00CAEE01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE1856671E9D29FC00CAEE01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1856681E9D29FC00CAEE01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE1856811E9D29FD00CAEE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE1856821E9D29FD00CAEE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE1856841E9D29FD00CAEE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Life/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SharkAttackApps.Life;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BE1856851E9D29FD00CAEE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Life/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SharkAttackApps.Life;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BE1856871E9D29FD00CAEE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SharkAttackApps.LifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Life.app/Life";
+			};
+			name = Debug;
+		};
+		BE1856881E9D29FD00CAEE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SharkAttackApps.LifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Life.app/Life";
+			};
+			name = Release;
+		};
+		BE18568A1E9D29FD00CAEE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SharkAttackApps.LifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Life;
+			};
+			name = Debug;
+		};
+		BE18568B1E9D29FD00CAEE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SharkAttackApps.LifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Life;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE1856561E9D29FC00CAEE01 /* Build configuration list for PBXProject "Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1856811E9D29FD00CAEE01 /* Debug */,
+				BE1856821E9D29FD00CAEE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1856831E9D29FD00CAEE01 /* Build configuration list for PBXNativeTarget "Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1856841E9D29FD00CAEE01 /* Debug */,
+				BE1856851E9D29FD00CAEE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1856861E9D29FD00CAEE01 /* Build configuration list for PBXNativeTarget "LifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1856871E9D29FD00CAEE01 /* Debug */,
+				BE1856881E9D29FD00CAEE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1856891E9D29FD00CAEE01 /* Build configuration list for PBXNativeTarget "LifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE18568A1E9D29FD00CAEE01 /* Debug */,
+				BE18568B1E9D29FD00CAEE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BEEB664C1EA2A6D600C99481 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BEEB664D1EA2A6D600C99481 /* Model.xcdatamodel */,
+			);
+			currentVersion = BEEB664D1EA2A6D600C99481 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE1856531E9D29FC00CAEE01 /* Project object */;
+}
